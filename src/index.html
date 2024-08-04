@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Near Vanilla</title>
+        <link href="./styles.css" type="text/css" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    </head>
+
+    <body class="bg-gray-900">
+        <nav class="bg-gray-800 h-20 flex flex-row">
+            <div class="container flex mx-auto justify-between items-center">
+                <h1 class="text-2xl text-white kanit-bold">Near Vanilla</h1>
+
+                <ul class="list-none flex float-right text-white kanit-light text-md">
+                    <li>
+                        <a href="/" class="kanit-bold">Home</a>
+                    </li>
+                    <li class="ml-4">
+                        <a href="/">Notion</a>
+                    </li>
+                    <li class="ml-4">
+                        <a href="/downloads">Downloads</a>
+                    </li>
+                </ul>
+
+                <button
+                    onclick="applyButton()"
+                    class="bg-cyan-700 p-2 rounded-lg kanit-bold text-white"
+                >
+                    APPLY TODAY
+                </button>
+                
+            </div>
+        </nav>
+
+        <video class="w-full h-96 object-cover" autoplay>
+            <source src="./assets/nearvanillabg.mp4" type="video/mp4">
+        </video>
+
+        <div class="cards-width mx-auto mt-8">
+            <div id="about">
+                <h1 class="flex text-3xl text-white kanit-bold">
+                    So, what is
+                    <span class="ml-2 mr-1 bg-gradient-to-br from-sky-500 to-indigo-500 bg-clip-text
+                    nv-font font-bold bg-gradient-to-br from-blue-400 to-blue-100 bg-clip-text
+                    text-transparent">Near Vanilla</span>
+                    ?
+                </h1>
+                <p class="text-white mt-3 kanit-light text-xl">
+                    We promote a low stress community atmosphere, where we can take our time,
+                    think before we act and have fun together! We respect each other and our
+                    differences. We act and communicate responsibly and take responsibility
+                    for our actions in game. It is a server free from griefing and thieving,
+                    and we have moderators to ensure that. We aim for a simple yet enjoyable
+                    server. If there are suggestions made by any player, we will take a look
+                    at them and maybe they might be implemented!
+                </p>
+            </div>
+
+            <div id="community" class="mt-24">
+                <h1 class="flex text-3xl text-white kanit-bold">
+                    Our
+                    <span class="ml-2 mr-1 bg-gradient-to-br from-sky-500 to-indigo-500 bg-clip-text
+                    nv-font font-bold bg-gradient-to-br from-blue-400 to-blue-100 bg-clip-text
+                    text-transparent">Amazing Community</span>
+                    ...
+                </h1>
+                <p class="text-white mt-3 kanit-light text-xl">
+                    Near Vanilla has an extremely diverse and friendly community that is always willing
+                    to help out. Whether you need a few items or some help with that pesky mod that refuses
+                    to work, we cannot wait for you to join us!
+                </p>
+
+                <div id="gallery" class="mt-6 mb-4 grid grid-rows-4 grid-cols-3 gap-4">
+                    <div><img class="rounded-lg" src="./assets/gallery/1.webp" /></div>
+                    <div><img class="rounded-lg" src="./assets/gallery/2.webp" /></div>
+                    <div><img class="rounded-lg" src="./assets/gallery/3.webp" /></div>
+                    <div><img class="rounded-lg" src="./assets/gallery/4.webp" /></div>
+                    <div><img class="rounded-lg" src="./assets/gallery/5.webp" /></div>
+                    <div><img class="rounded-lg" src="./assets/gallery/6.webp" /></div>
+                    <div><img class="rounded-lg" src="./assets/gallery/7.webp" /></div>
+                    <div><img class="rounded-lg" src="./assets/gallery/8.webp" /></div>
+                    <div><img class="rounded-lg" src="./assets/gallery/9.webp" /></div>
+                    <div><img class="rounded-lg" src="./assets/gallery/10.webp" /></div>
+                    <div><img class="rounded-lg" src="./assets/gallery/11.webp" /></div>
+                    <div><img class="rounded-lg" src="./assets/gallery/12.webp" /></div>
+                </div>
+            </div>
+
+            <div id="server-specs" class="mt-24">
+                <h1 class="flex text-3xl text-white kanit-bold">
+                    Check out our
+                    <span class="ml-2 mr-1 bg-gradient-to-br from-sky-500 to-indigo-500 bg-clip-text
+                    nv-font font-bold bg-gradient-to-br from-blue-400 to-blue-100 bg-clip-text
+                    text-transparent">Server Specs</span>
+                    ...
+                </h1>
+                <p class="text-white mt-3 kanit-light text-xl">
+                    When it comes to running a Minecraft server, we understand that performance is a
+                    top priority. Near Vanilla is hosted using top of the line hardware in order to
+                    provide our community with a seamless experience!
+                </p>
+
+                <div class="mt-8 mb-4 grid grid-cols-4 gap-4">
+                    <div class="bg-gray-800 p-4 rounded-lg h-80">
+                        <h1 class="text-white text-center kanit-bold">Processor</h1>
+                        <div class="w-12 mx-auto my-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M176 24c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40c-35.3 0-64 28.7-64 64l-40 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l40 0 0 56-40 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l40 0 0 56-40 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l40 0c0 35.3 28.7 64 64 64l0 40c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40 56 0 0 40c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40 56 0 0 40c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40c35.3 0 64-28.7 64-64l40 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-40 0 0-56 40 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-40 0 0-56 40 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-40 0c0-35.3-28.7-64-64-64l0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40-56 0 0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40-56 0 0-40zM160 128l192 0c17.7 0 32 14.3 32 32l0 192c0 17.7-14.3 32-32 32l-192 0c-17.7 0-32-14.3-32-32l0-192c0-17.7 14.3-32 32-32zm192 32l-192 0 0 192 192 0 0-192z"/></svg>
+                        </div>
+                        <p class="text-white text-center kanit-light">
+                            An Octa-Core Processor, capable of reaching speeds of 5GHz provides you
+                            with seamless gameplay on NearVanilla. Having a processor that is easily
+                            able to handle the load of our Minecraft server is crucial to keeping lag
+                            spikes and rubberbanding to a minimum.
+                        </p>
+                    </div>
+
+                    <div class="bg-gray-800 p-4 rounded-lg h-80">
+                        <h1 class="text-white text-center kanit-bold">Storage</h1>
+                        <div class="w-12 mx-auto my-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M0 96C0 60.7 28.7 32 64 32l384 0c35.3 0 64 28.7 64 64l0 184.4c-17-15.2-39.4-24.4-64-24.4L64 256c-24.6 0-47 9.2-64 24.4L0 96zM64 288l384 0c35.3 0 64 28.7 64 64l0 64c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64l0-64c0-35.3 28.7-64 64-64zM320 416a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm128-32a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"/></svg>
+                        </div>
+                        <p class="text-white text-center kanit-light">
+                            Our server is prepared for all scenarios, with 1TB of SSD Storage. This
+                            allows us to store bi-hourly backups of the server, ensuring that lost
+                            or corrupted data can be restored quickly and efficiently, while also
+                            minimizing the effect it may have on our community.
+                        </p>
+                    </div>
+
+                    <div class="bg-gray-800 p-4 rounded-lg h-80">
+                        <h1 class="text-white text-center kanit-bold">RAM</h1>
+                        <div class="w-12 mx-auto my-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M64 64C28.7 64 0 92.7 0 128l0 7.4c0 6.8 4.4 12.6 10.1 16.3C23.3 160.3 32 175.1 32 192s-8.7 31.7-21.9 40.3C4.4 236 0 241.8 0 248.6L0 320l576 0 0-71.4c0-6.8-4.4-12.6-10.1-16.3C552.7 223.7 544 208.9 544 192s8.7-31.7 21.9-40.3c5.7-3.7 10.1-9.5 10.1-16.3l0-7.4c0-35.3-28.7-64-64-64L64 64zM576 352L0 352l0 64c0 17.7 14.3 32 32 32l48 0 0-32c0-8.8 7.2-16 16-16s16 7.2 16 16l0 32 96 0 0-32c0-8.8 7.2-16 16-16s16 7.2 16 16l0 32 96 0 0-32c0-8.8 7.2-16 16-16s16 7.2 16 16l0 32 96 0 0-32c0-8.8 7.2-16 16-16s16 7.2 16 16l0 32 48 0c17.7 0 32-14.3 32-32l0-64zM192 160l0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32s32 14.3 32 32zm128 0l0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32s32 14.3 32 32zm128 0l0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32s32 14.3 32 32z"/></svg>
+                        </div>
+                        <p class="text-white text-center kanit-light">
+                            With 8GB of Dedicated RAM allocated to our server, players need not worry
+                            about random server crashes that could result in a loss of data. Our players
+                            are able to enjoy a hassle-free experience, with the peace of mind that their
+                            progress is safe and secure.
+                        </p>
+                    </div>
+
+                    <div class="bg-gray-800 p-4 rounded-lg h-80">
+                        <h1 class="text-white text-center kanit-bold">Network</h1>
+                        <div class="w-12 mx-auto my-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M54.2 202.9C123.2 136.7 216.8 96 320 96s196.8 40.7 265.8 106.9c12.8 12.2 33 11.8 45.2-.9s11.8-33-.9-45.2C549.7 79.5 440.4 32 320 32S90.3 79.5 9.8 156.7C-2.9 169-3.3 189.2 8.9 202s32.5 13.2 45.2 .9zM320 256c56.8 0 108.6 21.1 148.2 56c13.3 11.7 33.5 10.4 45.2-2.8s10.4-33.5-2.8-45.2C459.8 219.2 393 192 320 192s-139.8 27.2-190.5 72c-13.3 11.7-14.5 31.9-2.8 45.2s31.9 14.5 45.2 2.8c39.5-34.9 91.3-56 148.2-56zm64 160a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z"/></svg>
+                        </div>
+                        <p class="text-white text-center kanit-light">
+                            When running a multiplayer server, we understand that a stable network connection
+                            is crucial. Our server is hosted on a 1Gbps connection, ensuring that players
+                            experience minimal latency and are able to enjoy a lag-free experience on NearVanilla.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="server-specs" class="mt-24">
+                <h1 class="flex text-3xl text-white kanit-bold">
+                    Take a look at some of the
+                    <span class="ml-2 mr-1 bg-gradient-to-br from-sky-500 to-indigo-500 bg-clip-text
+                    nv-font font-bold bg-gradient-to-br from-blue-400 to-blue-100 bg-clip-text
+                    text-transparent">Plugins</span>
+                    we use...
+                </h1>
+
+                <div class="mt-8 mb-4 grid grid-cols-4 grid-rows-2 gap-4">
+                    <div class="bg-gray-800 p-4 rounded-lg h-60">
+                        <h1 class="text-white text-center kanit-bold text-2xl">DeathLog</h1>
+                        <p class="text-white text-center kanit-light">
+                            Can't remember where you died? No problem! DeathLog keeps track of where
+                            you died without the requirement of the F3 Screen!
+                        </p>
+                    </div>
+
+                    <div class="bg-gray-800 p-4 rounded-lg h-60">
+                        <h1 class="text-white text-center kanit-bold text-2xl">Dynmap</h1>
+                        <p class="text-white text-center kanit-light">
+                            A Google Maps like map viewer for our server that is viewable within your
+                            browser!
+                        </p>
+                    </div>
+
+                    <div class="bg-gray-800 p-4 rounded-lg h-60">
+                        <h1 class="text-white text-center kanit-bold text-2xl">CapAFK</h1>
+                        <p class="text-white text-center kanit-light">
+                            A simple yet crucial plugin that kicks AFK players that do not complete
+                            a Captcha.
+                        </p>
+                    </div>
+
+                    <div class="bg-gray-800 p-4 rounded-lg h-60">
+                        <h1 class="text-white text-center kanit-bold text-2xl">CoreProtect</h1>
+                        <p class="text-white text-center kanit-light">
+                            A fast, efficient and detailed data logging and anti-griefing tool,
+                            allowing us to keep track of all player actions and revert any
+                            wrongdoing.
+                        </p>
+                    </div>
+
+                    <div class="bg-gray-800 p-4 rounded-lg h-60">
+                        <h1 class="text-white text-center kanit-bold text-2xl">DiscordSRV</h1>
+                        <p class="text-white text-center kanit-light">
+                            A powerful, highly-configurable, open-source Discord to Minecraft
+                            Bridging Plugin. This allows you to communicate with players on
+                            the server from Discord, and vice versa!
+                        </p>
+                    </div>
+
+                    <div class="bg-gray-800 p-4 rounded-lg h-60">
+                        <h1 class="text-white text-center kanit-bold text-2xl">One Player Sleep</h1>
+                        <p class="text-white text-center kanit-light">
+                            A simple plugin that allows a single player to fast-forward through the
+                            night, without the need for all players to sleep! Want to keep the night?
+                            No problem, just wake the person sleeping up, though we can't guarantee
+                            they'll be happy about it!
+                        </p>
+                    </div>
+
+                    <div class="bg-gray-800 p-4 rounded-lg h-60">
+                        <h1 class="text-white text-center kanit-bold text-2xl">IsSlimeChunk</h1>
+                        <p class="text-white text-center kanit-light">
+                            Another simple plugin that allows players to easily check if they are
+                            standing in a Slime Chunk!
+                        </p>
+                    </div>
+
+                    <div class="bg-gray-800 p-4 rounded-lg h-60">
+                        <h1 class="text-white text-center kanit-bold text-2xl">LuckPerms</h1>
+                        <p class="text-white text-center kanit-light">
+                            A powerful permissions plugin that ensures that players have the correct
+                            permissions to perform the actions they need to, while also ensuring that
+                            they do not have access to commands they shouldn't.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="bg-gray-800 h-20 flex flex-row mt-16">
+            <p class="text-white kanit-light text-md mx-auto my-auto">
+                &copy; 2024 Near Vanilla. All Rights Reserved.
+            </p>
+        </footer>
+    </body>
+</html>
